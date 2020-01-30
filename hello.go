@@ -9,4 +9,15 @@ func main() {
 	} else {
 		fmt.Println("a is less than 5")
 	}
+
+	a := 3
+	for i := 0; i < 10; i++ {
+		if i == a {
+			continue
+		}
+		if i == 7 {
+			break
+		}
+		fmt.Println(i)
+	}
 }
